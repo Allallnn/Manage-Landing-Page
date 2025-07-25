@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Orange-400: hsl(12, 88%, 59%);
+  --Blue-950: hsl(228, 39%, 23%);
+  --Gray-950: hsl(233, 12%, 13%);
+  --Orange-50: hsl(13, 100%, 96%);
+  --Gray-50: hsl(0, 0%, 98%);
+  --vietnam: "Vietnam Pro", sans-serif;
+}
+body{
+    font: var(--vietnam);   
+    background-color: var(--Gray-50);
+}
+button{
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: var(--Orange-400);
+    color: var(--Gray-50);
+    border: none;
+}
+.padding{
+    padding: 2rem 10rem;
+}
+.container{
+background-image: url(assets/bg-simplify-section-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+background-color: var(--Gray-50);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li{
+list-style: none;
+}
+/* section 1 */
+#main-section-1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#main-section-1 h1{
+    font-size: 3rem;
+    width: 25rem;
+    color: var(--Blue-950);
+    padding-bottom: 2rem;
+}
+#main-section-1 p{
+    font-size: 15px;
+    width: 15rem;
+    padding-bottom: 2rem;
+    color: var(--Gray-950);
+}
+/* section 2 */
+#main-section-2{
+display: flex;
+}
+#main-section-2-div-1{
+
+}
+#main-section-2-div-2 {
+
+}
+/* section 4 */
+#main-section-4{
+    background-color: var(--Orange-400);
+    display: flex;
+    justify-content: space-between;
+}
+#main-section-4 h1{
+font-size: 2rem;    
+}
+#main-section-4 button{
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: var(--Gray-50);
+    color: var(--Orange-400);
+    border: none;
+}
+footer{
+    background-color: var(--Gray-950);
+display: flex;
+gap: 4rem;
+justify-content: space-between;
+}
