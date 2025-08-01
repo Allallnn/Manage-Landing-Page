@@ -48,6 +48,15 @@ nav ul {
 
 nav ul li {
   list-style: none;
+  color: var(--Blue-950);
+}
+nav li:hover{
+opacity: 50%;
+cursor: pointer;
+}
+nav button:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
 /* section 1 */
 #main-section-1 {
@@ -69,45 +78,65 @@ nav ul li {
   padding-bottom: 2rem;
   color: var(--Gray-950);
 }
+#main-section-1-div-1 button:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
 
 /* section 2 */
 #main-section-2 {
   display: flex;
+  justify-content: space-between;
 }
-#main-section-2 p{
+#main-section-2 p {
   font-size: 1.5rem;
 }
+
 #main-section-2 h1 {
   color: var(--Blue-950);
   font-size: 3rem;
   padding-bottom: 1rem;
+  width: 35rem;
 }
-#main-section-2-div-1 p{
-font-size: 1rem;
-color: var(--Gray-950);
+#main-section-2-div-1 p {
+  font-size: 1rem;
+  color: var(--Gray-950);
 }
 #main-section-2-div-1 p {
   color: var(--Gray-950);
   width: 22rem;
   line-height: 1.75;
 }
-#main-section-2 li{
+#main-section-2 li {
   font-size: 2rem;
 }
 #main-section-2-div-1 {
 }
 
-#main-section-2-div-2{
-display: flex;
-flex-direction: column;
+#main-section-2-div-2 {
+  display: flex;
+  flex-direction: column;
 }
-  #main-section-2-div-2 li{
-list-style: none;
-font-size: 1rem;
-  }
-  #main-section-2-div-2 p{
-    font-size: 16px;
-  }
+#main-section-2-div-2 span {
+  padding: 0.5rem 1.5rem;
+  margin-right: 1rem;
+  background-color: var(--Orange-400);
+  border-radius: 1.75rem;
+  color: white;
+}
+#main-section-2-div-2 li {
+  list-style: none;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  color: var(--Blue-950);
+}
+#main-section-2-div-2 p {
+  font-size: 17px;
+  padding-bottom: 1rem;
+  margin-left: 5rem;
+  width: 30rem;
+  line-height: 1.5;
+}
 
 #main-section-2-div-2 #div-1,
 #div-2,
@@ -116,36 +145,52 @@ font-size: 1rem;
   align-items: center;
 }
 /* section 3 */
-#main-secion-3 {
+#main-section-3 {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main-section-3 h1 {
+  color: var(--Blue-950);
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+#main-section-3-div {
+  display: flex;
+  padding-bottom: 2rem;
+  gap: 8rem;
 }
 #main-section-3-div-1,
 #main-section-3-div-2,
 #main-section-3-div-3 {
   background-color: var(--bgrc);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#main-section-3-div-1,
-#main-section-3-div-2,
-#main-section-3-div-3 img {
-  width: 6rem;
+#main-section-3-div-1 h5,
+#main-section-3-div-2 h5,
+#main-section-3-div-3 h5 {
+  padding: 1rem 0;
+  font-size: 20px;
+  color: var(--Blue-950);
 }
-#main-section-3 p {
+#main-section-3-div-1 p,
+#main-section-3-div-2 p,
+#main-section-3-div-3 p {
   text-align: center;
+  padding: 0 3rem 1rem 3rem;
+  font-size: 18px;
 }
-/* first div */
-#main-section-3-div-1 {
-  display: flex;
-  flex-direction: column;
+#main-section-3 button {
+  align-items: center;
 }
-/* second div */
-#main-section-3-div-2 {
-  display: flex;
-  flex-direction: column;
-}
-/* third div */
-#main-section-3-div-3 {
-  display: flex;
-  flex-direction: column;
+#main-section-3 button:hover {
+  cursor: pointer;
+  opacity: 50%;
 }
 /* section 4 */
 #main-section-4 {
@@ -169,6 +214,10 @@ font-size: 1rem;
   justify-content: center;
   align-items: center;
 }
+#main-section-4 button:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
 /* footer */
 footer {
   background-color: var(--Gray-950);
@@ -184,16 +233,58 @@ footer {
 }
 input {
 }
-.footer-mobile{
+.footer-mobile {
   display: none;
 }
-.footer-desktop{
+.footer-desktop {
   display: block;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
 }
+.footer-desktop #footer-div-1 {
+}
+.footer-desktop #footer-ul-div {
+  display: flex;
+  gap: 16rem;
+  color: white;
+}
+.footer-desktop #form-div button {
+  padding: 1.25rem;
+  border-radius: 2rem;
+  width: 5rem;
+}
+.footer-desktop button:hover{
+  cursor: pointer;
+opacity: 50%;
+}
+
+.footer-desktop footer input {
+  padding: 1.25rem;
+  border-radius: 2rem;
+}
+.footer-desktop #footer-img-div img:hover{
+color: var(--Orange-400);
+}
+.footer-desktop li{
+  list-style: none;
+}
+.footer-desktop li:hover{
+  color: var(--Orange-400);
+}
+.footer-desktop #footer-div-1 img{
+padding-bottom: 3rem;
+}
+
+  #form-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    footer input {
+    padding: 1.25rem;
+    border-radius: 2rem;
+  }
 @media (max-width: 428px) {
   body {
     overflow: hidden;
@@ -268,18 +359,17 @@ input {
     align-items: center;
     justify-content: center;
   }
-  
-  #main-section-2-div-2{ 
 
+  #main-section-2-div-2 {
   }
-  #main-section-2-div-2 li{
-list-style: none;
-font-size: 1rem;
+  #main-section-2-div-2 li {
+    list-style: none;
+    font-size: 1rem;
   }
-  #main-section-2-div-2 #div-1{
-display: flex;
+  #main-section-2-div-2 #div-1 {
+    display: flex;
   }
-  #main-section-2-div-2 p{
+  #main-section-2-div-2 p {
     font-size: 16px;
   }
   /* section 3 */
@@ -307,11 +397,9 @@ display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-        width: 100%;
+    width: 100%;
   }
   #main-section-3-div-2 img {
-
-
   }
   #main-section-3-div-2 h5 {
     font-size: 1.5rem;
@@ -320,7 +408,7 @@ display: flex;
     color: var(--Blue-950);
   }
   #main-section-3-div-2 p {
-width: 80%;
+    width: 80%;
     color: var(--Gray-950);
     padding-bottom: 1rem;
     font-size: 12px;
@@ -337,12 +425,12 @@ width: 80%;
   #main-section-4 h1 {
     text-align: center;
     padding: 2rem;
-color: white;
-font-size: 2.5rem;
+    color: white;
+    font-size: 2.5rem;
   }
   #main-section-4 button {
     background-color: white;
-   margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
   /* footer */
   footer {
@@ -391,30 +479,30 @@ font-size: 2.5rem;
     margin: 0 auto;
     padding-bottom: 1rem;
   }
-  #footer-div-1{
+  #footer-div-1 {
     padding-bottom: 1rem;
     display: flex;
     flex-direction: column-reverse;
   }
-  #footer-logo-div{
+  #footer-logo-div {
     padding: 2rem;
     display: flex;
   }
-  .footer-mobile{
+  .footer-mobile {
     display: block;
     display: flex;
     flex-direction: column-reverse;
   }
-  .footer-mobile form{
+  .footer-mobile form {
     padding-bottom: 3rem;
   }
-  .footer-mobile ul{
+  .footer-mobile ul {
     padding-bottom: 2rem;
   }
-  .footer-mobile img{
+  .footer-mobile img {
     margin-bottom: 1rem;
   }
-  .footer-desktop{
+  .footer-desktop {
     display: none;
   }
 }
