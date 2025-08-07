@@ -165,7 +165,7 @@ nav button:hover {
 }
 #main-section-3 img{
   position: relative;
-  position: ;
+
 }
 #main-section-3-div-1 p {
   width: 35rem;
@@ -322,6 +322,20 @@ footer input {
   .padding {
     padding: 2rem 2rem;
   }
+  .container-1 {
+  background-image: url(assets/bg-tablet-pattern.svg);
+  background-position-x: ;
+  background-position-y: ;
+  background-repeat: no-repeat;
+  background-size: 10rem;
+}
+.container-2 {
+  background-image: url(assets/bg-tablet-pattern.svg);
+  background-position-x: rem;
+  background-position-y: rem;
+  background-repeat: no-repeat;
+  background-size: 10rem;
+}
   .container {
     background-image: url(assets/bg-tablet-pattern.svg);
     background-size: 100%;
@@ -376,14 +390,14 @@ footer input {
   }
   #main-section-2 h1 {
     font-size: 2rem;
-    text-align: center;
+text-align: center;
     padding-bottom: 1rem;
     color: var(--Blue-950);
   }
   #main-section-2-div-1 p {
-    color: var(--Gray-950);
-    padding-bottom: 2rem;
-    text-align: center;
+color: var(--Gray-950);
+text-align: center;
+padding-bottom: 1rem;
   }
   #main-section-2 p {
     text-align: start;
@@ -399,11 +413,21 @@ footer input {
   }
 
   #main-section-2-div-2 {
+    display: flex;
+    justify-content: start;
   }
+  #main-section-2-div-2 span {
+
+}
   #main-section-2-div-2 li {
     list-style: none;
     font-size: 1rem;
     height: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+    padding-bottom: 1rem;
+    margin: 0;
   }
   #main-section-2-div-2 #div-1,
   #div-2,
@@ -414,6 +438,8 @@ footer input {
   }
   #main-section-2-div-2 p {
     font-size: 16px;
+    padding-bottom: 1rem;
+    margin: 0;
   }
   /* section 3 */
   #main-section-3 {
@@ -421,6 +447,7 @@ footer input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
   #main-section-3-div-1 {
     display: none;
@@ -433,8 +460,11 @@ footer input {
     text-align: center;
     padding-bottom: 1rem;
     color: var(--Blue-950);
+
   }
   #main-section-3-div-2 {
+    margin-top: 3rem;
+    padding-top: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -443,6 +473,9 @@ footer input {
     width: 100%;
   }
   #main-section-3-div-2 img {
+    position: absolute;
+    top: 93rem;
+    width: 5rem;
   }
   #main-section-3-div-2 h5 {
     font-size: 1.5rem;
