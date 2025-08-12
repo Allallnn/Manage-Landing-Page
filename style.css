@@ -24,6 +24,7 @@ button {
   background-color: var(--Orange-400);
   color: var(--Gray-50);
   border: none;
+          box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
 }
 .padding {
   padding: 2rem 10rem;
@@ -34,6 +35,13 @@ button {
   background-size: cover;
   background-color: var(--Gray-50);
 }
+  .container-3{
+        background-image: url(assets/bg-tablet-pattern.svg);
+    background-position-x: -27rem;
+    background-position-y: 20rem;
+    background-repeat: no-repeat;
+    background-size: 40rem;
+  }
 nav {
   display: flex;
   justify-content: space-between;
@@ -129,6 +137,7 @@ nav button:hover {
   font-size: 1rem;
   padding-bottom: 1rem;
   color: var(--Blue-950);
+  font-weight: 700;
 }
 #main-section-2-div-2 p {
   font-size: 17px;
@@ -151,6 +160,7 @@ nav button:hover {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 4rem;
 }
 #main-section-3 h1 {
   color: var(--Blue-950);
@@ -176,11 +186,13 @@ nav button:hover {
 #main-section-3-div-2,
 #main-section-3-div-3 {
   width: 40rem;
+padding-top: 5rem;
   background-color: var(--bgrc);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 6rem 0 1rem 0;
 }
 #main-section-3-div-1 h5,
 #main-section-3-div-2 h5,
@@ -196,8 +208,16 @@ nav button:hover {
   padding: 0 3rem 1rem 3rem;
   font-size: 18px;
 }
+#main-section-3-div-1 img,
+#main-section-3-div-2 img,
+#main-section-3-div-3 img{
+position: absolute;
+top: 85rem;
+}
 #main-section-3 button {
   align-items: center;
+  padding: 1rem 3rem;
+    margin-bottom: 4rem;
 }
 #main-section-3 button:hover {
   cursor: pointer;
@@ -211,6 +231,7 @@ nav button:hover {
   align-items: center;
   background-image: url(assets/bg-simplify-section-desktop.svg);
   background-repeat: no-repeat;
+
 }
 
 #main-section-4 h1 {
@@ -219,14 +240,14 @@ nav button:hover {
   color: white;
 }
 #main-section-4 button {
-  border-radius: 2rem;
-  padding: 1rem;
   background-color: var(--Gray-50);
   color: var(--Orange-400);
   border: none;
   height: 3rem;
   justify-content: center;
   align-items: center;
+    padding: 1.25rem 2rem;
+border-radius: 2.5rem;
 }
 #main-section-4 button:hover {
   cursor: pointer;
@@ -256,17 +277,18 @@ input {
   justify-content: space-between;
   width: 100%;
 }
-.footer-desktop #footer-div-1 {
+#footer-desktop-img {
+  width: 10rem;
 }
 .footer-desktop #footer-ul-div {
   display: flex;
   gap: 16rem;
   color: white;
 }
-.footer-desktop #form-div button {
-  padding: 1.25rem;
-  border-radius: 2rem;
-  width: 5rem;
+.footer-desktop button {
+  padding: 1.25rem 2rem;
+border-radius: 2.5rem;
+  
 }
 .footer-desktop button:hover {
   cursor: pointer;
@@ -277,19 +299,26 @@ input {
   padding: 1.25rem;
   border-radius: 2rem;
 }
-.footer-desktop #footer-img-div img:hover {
-  color: var(--Orange-400);
+.footer-desktop #footer-img-div img {
+padding-right: 0.5rem;
 }
 .footer-desktop li {
   list-style: none;
+    padding: 0.5rem 0;
 }
 .footer-desktop li:hover {
   color: var(--Orange-400);
+
 }
 .footer-desktop #footer-div-1 img {
   padding-bottom: 3rem;
 }
-
+.footer-desktop p{
+  color: white;
+  margin-top: 4rem;
+  font-size: 14px;
+  text-align: end;
+}
 #form-div {
   display: flex;
   justify-content: space-between;
@@ -303,13 +332,6 @@ footer input {
   background-image: url("assets/bg-tablet-pattern.svg");
   background-position-x: 75rem;
   background-position-y: -14rem;
-  background-repeat: no-repeat;
-  background-size: 50rem;
-}
-.container-2 {
-  background-image: url("assets/bg-tablet-pattern.svg");
-  background-position-x: -30rem;
-  background-position-y: 25rem;
   background-repeat: no-repeat;
   background-size: 50rem;
 }
@@ -379,6 +401,7 @@ padding-bottom: 8rem;
     display: flex;
     margin: 0 auto;
     padding: 1rem 3rem;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
   }
   /* Section 2 */
 
@@ -470,6 +493,10 @@ font-weight: 700;
     margin-bottom: 2rem;
     color: var(--Blue-950);
   }
+  #main-section-3 button{
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
+        padding: 0.75rem 2rem;
+  }
   #main-section-3-div-2 {
     margin-top: 3rem;
     padding-top: 2.5rem;
@@ -482,7 +509,7 @@ font-weight: 700;
   }
   #main-section-3-div-2 img {
     position: absolute;
-    top: 105.5rem;
+    top: 110rem;
     width: 5rem;
   }
   #main-section-3-div-2 h5 {
@@ -518,6 +545,7 @@ font-weight: 700;
   #main-section-4 button {
     background-color: white;
     margin-bottom: 2rem;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
   }
   /* footer */
   footer {
@@ -543,6 +571,7 @@ font-weight: 700;
     padding: 1.25rem;
     border-radius: 2rem;
     width: 5rem;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
   }
 
   footer input {
