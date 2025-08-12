@@ -329,6 +329,11 @@ footer input {
     background-size: 25rem;
   }
   .container-2{
+        background-image: url(assets/bg-tablet-pattern.svg);
+    background-position-x: 16rem;
+    background-position-y: 30rem;
+    background-repeat: no-repeat;
+    background-size: 25rem;
   }
 
   .container {
@@ -351,6 +356,7 @@ footer input {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+padding-bottom: 8rem;
   }
   #main-section-1 img {
     width: 100%;
@@ -380,9 +386,9 @@ footer input {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* background-image: url(assets/bg-tablet-pattern.svg); */
     background-size: 100%;
     background-repeat: no-repeat;
+    padding-top: 0.5rem;
   }
   #main-section-2-div-1 {
     /* border: solid 1px red; */
