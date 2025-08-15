@@ -175,7 +175,7 @@ nav button:hover {
   border: 10px solid red;
   display: flex;
   padding-bottom: 2rem;
-  gap: 8rem;
+  gap: 4rem;
   overflow-x: hidden ;
 }
 #main-section-3 img {
