@@ -46,7 +46,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+
 }
 
 nav ul {
@@ -71,7 +71,6 @@ nav button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-    flex-wrap: wrap;
 }
 #main-section-1 h1 {
   text-align: start;
@@ -119,7 +118,6 @@ nav button:hover {
 }
 #main-section-2 li {
   font-size: 2rem;
-      flex-wrap: wrap;
 }
 #main-section-2-div-1 {
 }
@@ -528,7 +526,6 @@ font-weight: 700;
   }
   #main-section-3-div-2 img {
     position: absolute;
-    top: 110rem;
     width: 5rem;
   }
   #main-section-3-div-2 h5 {
