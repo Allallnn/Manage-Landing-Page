@@ -183,7 +183,7 @@ nav button:hover {
 
 }
 #main-sectiom-3-div-3{
-
+overflow-x: hidden;
 }
 #main-section-3-div-1 p {
   width: 35rem;
