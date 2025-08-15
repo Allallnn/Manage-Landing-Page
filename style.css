@@ -172,7 +172,6 @@ nav button:hover {
   text-align: center;
 }
 #main-section-3-div {
-  border: 10px solid red;
   display: flex;
   padding-bottom: 2rem;
   gap: 4rem;
